@@ -1,8 +1,10 @@
 # import sys
 # print(sys.path)
 import unittest
-from src import gen_word_cloud, gene_fold
+from src import gen_word_cloud
+from src.utils.gene_fold import gene_fold
 import os
+from src.utils.mylog import setlogging
 
 
 class TestWc(unittest.TestCase):
@@ -10,11 +12,20 @@ class TestWc(unittest.TestCase):
 
     @classmethod
     def setUpClass(cls) -> None:
-        gene_fold.gene_fold(cls.out_path)
+        pass
 
     def test_read_words(self):
         words_gene = gen_word_cloud.read_words(file='resources/sub_bbe.txt')
         self.assertTrue(words_gene)
+
+    def test_read_words_bbe(self):
+        words_gene = gen_word_cloud.read_words_bbe(file='resources/sub_bbe.txt')
+        self.assertTrue(words_gene)
+
+    def test_read_words(self):
+        words_gene = gen_word_cloud.read_words(file='resources/sub_bbe.txt')
+        self.assertTrue(words_gene)
+
 
     def test_read_stop_words(self):
         stop_words = gen_word_cloud.read_stop_words(file='resources/stop_words.txt')
@@ -38,4 +49,6 @@ class TestWc(unittest.TestCase):
 
 
 if __name__ == '__main__':
+    gene_fold('out')
+    setlogging('out/testWc.log')
     unittest.main()

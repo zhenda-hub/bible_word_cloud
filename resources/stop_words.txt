@@ -31,6 +31,7 @@ among
 amongst
 an
 and
+And
 another
 any
 anybody
@@ -79,6 +80,7 @@ beyond
 both
 brief
 but
+But
 by
 came
 can
@@ -156,6 +158,7 @@ followed
 following
 follows
 for
+For
 former
 formerly
 forth
@@ -185,6 +188,7 @@ have
 haven't
 having
 he
+He
 hello
 help
 hence
@@ -251,6 +255,7 @@ least
 less
 lest
 let
+Let
 let's
 like
 liked
@@ -262,6 +267,11 @@ looks
 ltd
 mainly
 many
+make
+makes
+Make
+made
+Made
 may
 maybe
 me
@@ -341,6 +351,7 @@ possible
 presumably
 probably
 provides
+put
 que
 quite
 qv
@@ -417,11 +428,13 @@ that
 thats
 that's
 the
+The
 their
 theirs
 them
 themselves
 then
+Then
 thence
 there
 thereafter
@@ -438,6 +451,8 @@ they'll
 they're
 they've
 think
+thing
+things
 third
 this
 thorough
@@ -538,6 +553,7 @@ wouldn't
 yes
 yet
 you
+You
 you'd
 you'll
 your
@@ -1406,16 +1422,6 @@ ZZ
 ;
 '
 "
-and
-And
-but
-But
-for
-For
-you
-You
-make
-Make
 I
 i
  
