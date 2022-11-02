@@ -8,13 +8,13 @@ Software architecture description
 
 #### Installation
 
-1.  xxxx
+1.  创建虚拟环境命令： conda env create -f freeze.yml
 2.  xxxx
 3.  xxxx
 
 #### Instructions
 
-1.  xxxx
+1.  执行命令： python main.py
 2.  xxxx
 3.  xxxx
 

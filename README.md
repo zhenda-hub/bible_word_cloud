@@ -9,13 +9,13 @@
 
 #### 安装教程
 
-1.  xxxx
+1.  创建虚拟环境命令： conda env create -f freeze.yml
 2.  xxxx
 3.  xxxx
 
 #### 使用说明
 
-1.  xxxx
+1.  执行命令： python main.py
 2.  xxxx
 3.  xxxx
 
