@@ -1,15 +1,12 @@
 # coding: utf-8
 # Author: zhenda
 # Time  ：2022/10/28 7:11
-import os.path
-
-import jieba
-from collections import Counter
-# import matplotlib.pyplot as plt
 from wordcloud import WordCloud
+import jieba
+import os.path
+from collections import Counter
 from src.utils.timecalc import timecalc
 import pprint
-from time import perf_counter
 import pdb
 import logging
 
