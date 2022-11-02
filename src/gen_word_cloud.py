@@ -40,6 +40,18 @@ def read_words_bbe(file):
 
 
 @timecalc
+def read_words_hgb(file):
+    all_line = ''
+    with open(file, 'r', encoding='gbk') as wf:
+        for line in wf:
+            one_line = ' '.join(line.split()[2:])
+            all_line += one_line + ' '
+
+    words_gene = jieba.cut(all_line)
+    return words_gene
+
+
+@timecalc
 def read_stop_words(file):
     with open(file, 'r', encoding='u8') as wf:
         stop_words = wf.read()
@@ -53,29 +65,11 @@ def read_stop_words(file):
 
 @timecalc
 def get_res_dict(words_gene, stop_words):
-    res_list = []
-    for item in words_gene:
-        if item not in stop_words:
-            res_list.append(item)
-
-    res_dict = Counter(res_list)
-    final_list = res_dict.most_common(200)
-    final_dict = {}
-    for item in final_list:
-        final_dict[item[0]] = item[1]
-    # pprint.pprint(final_dict)
-
-    return final_dict
-
-
-@timecalc
-def get_res_dict2(words_gene, stop_words):
     words_dict = Counter(words_gene)
     # pdb.set_trace()
-    all_key = list(words_dict.keys())  # 循环删除key， 一定要用list， 不能原地修改
-    for k in all_key:
-        if k in stop_words:
-            words_dict.pop(k)
+    all_key = set(words_dict.keys())  # 循环删除key， 一定要用list， 不能原地修改
+    for k in (all_key & set(stop_words)):
+        words_dict.pop(k)
 
     final_list = words_dict.most_common(200)
     final_dict = {}
