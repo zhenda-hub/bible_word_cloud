@@ -25,5 +25,5 @@ if __name__ == '__main__':
     gene_fold('out')
     setlogging('out/main.log')
 
-    gene_bbe(10)
-    # gene_hgb(10)
+    # gene_bbe(2)
+    gene_hgb(2)
