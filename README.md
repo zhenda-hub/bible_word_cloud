@@ -2,6 +2,9 @@
 
 #### 介绍
 词云图和圣书的结合
+![bbe_wordcloud](./products/bbe_wordcloud.png)
+![hgb_wordcloud](./products/hgb_wordcloud.png)
+
 
 #### 软件架构
 软件架构说明
