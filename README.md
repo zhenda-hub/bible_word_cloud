@@ -2,8 +2,11 @@
 
 #### 介绍
 词云图和圣书的结合， 效果如下：
+
 bbe版本：
+
 ![bbe_wordcloud](./products/bbe_wordcloud.png)
+
 hgb版本：
 ![hgb_wordcloud](./products/hgb_wordcloud.png)
 
