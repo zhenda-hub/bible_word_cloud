@@ -51,5 +51,8 @@ http://license.coscl.org.cn/MulanPSL2
 - <https://o-bible.com/gb/dlb.html>
 - <https://biblehub.net/>
 - <https://openbible.com/downloads.htm>
+- <http://www.jdtxj.love/thread-33746-1-1.html>
+- <https://www.biblesupersearch.com/bible-downloads/>
+- <https://www.biblesupersearch.com/2018/03/a-brief-summary-of-the-bible/>
 
 感谢平台提供的下载
