@@ -1,5 +1,7 @@
 # bible_word_cloud
 
+[English README](./README.en.md)
+
 ## 介绍
 
 词云图和圣书的结合， 分词, 剔除停用词语后, 展示词云图.
