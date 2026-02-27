@@ -80,7 +80,7 @@ bible_word_cloud/
 The main script provides several functions:
 
 - `gene_bbe(num)`: Generate multiple BBE version word clouds
-- `gene_hgb(num)`: Generate multiple HGB version word clouds  
+- `gene_hgb(num)`: Generate multiple HGB version word clouds
 - `gene_bbe_echarts()`: Generate interactive BBE word cloud HTML
 - `gene_hgb_echarts()`: Generate interactive HGB word cloud HTML
 
@@ -106,6 +106,7 @@ This project is licensed under the Mulan PSL v2 License. See [LICENSE](LICENSE) 
 - Bible text sources:
   - <https://o-bible.com/gb/dlb.html>
   - <https://biblehub.net/>
+  - <https://openbible.com/downloads.htm>
 - Jieba for Chinese text segmentation
 
 ## Technical Details
