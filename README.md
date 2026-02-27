@@ -48,5 +48,6 @@ http://license.coscl.org.cn/MulanPSL2
 
 - <https://o-bible.com/gb/dlb.html>
 - <https://biblehub.net/>
+- <https://openbible.com/downloads.htm>
 
 感谢平台提供的下载
